@@ -1,0 +1,329 @@
+/*PHONE SCREEN*/
+body  {
+    background-image: url("img/vitamin-d.jpg");
+  }
+
+
+/*GALLERY IMG*/
+.img-box{
+      overflow: hidden;
+  }
+
+.img-zoom {
+    transition: transform .5s !important;
+    min-width: 100%;
+    height: 300px;
+}
+
+.img-zoom:hover {
+    transform: scale(1.2) !important; 
+}
+
+.txt-bg{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.img-bg{
+    background: linear-gradient(to bottom, #17a2b7 0%, #31519e 100%);
+}
+
+.glr-header{
+    min-width: 100%;
+    height: 300px;
+}
+
+.cover-border{
+    border-right: solid 15px #17a2b7;
+}
+
+.gallery-upload{
+    background: green;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.admin-input{
+    margin: 20px 0 20px 0;
+}
+
+#choose-file{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.col-ord{
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.username-ord{
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+/*GALLERY IMG*/
+
+/*NAVBAR*/
+.dropdawn-dark{
+    color: rgb(255, 255, 255);
+}
+
+.nav-title {  
+    font-size: 50px;
+    font-weight: bolder;
+    background: white; /*linear-gradient(to right, #479f87 0%, #31519e 100%);*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-custom{
+    background: linear-gradient(to right, #17a2b7 0%, #31519e 100%);
+  }
+/*NAVBAR*/
+
+
+/*LOGIN FORM*/
+  .container-responsive{
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-right: solid 10px #17a2b7;
+    border-radius: .25rem;
+}
+
+#log-mail{
+    margin: 5px 0;
+}
+
+#log-pass{
+    margin: 5px 0;
+}
+
+#log-btn{
+    margin: 5px 0;
+    min-width: 50px !important;
+}
+/*LOGIN FORM*/
+
+/*CONTACT*/
+
+.contact-bg1{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-bg2{
+    background: linear-gradient(to right bottom, #17a2b7 0%, #31519e 100%);
+    color: white;
+}
+
+#map{
+    height: 100%;
+    min-height: 260px;
+    width: 100%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px 10px 0;
+  }
+  
+  .fa {
+      background: rgb(255, 255, 255, 0.8);
+      color: #17a2b7;
+      text-decoration: none;
+  }
+
+  .fa:hover {
+    text-decoration: none;
+}
+
+  .fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin:hover {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube:hover {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram:hover {
+    background: linear-gradient(to right top, #ffdb56 0%, #8739cd 100%);
+    color: white;
+  }
+  
+  .fa-snapchat-ghost:hover {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+
+/*CONTACT*/
+
+/*COMMENTS*/
+
+.bg-blue{
+  background-color: rgb(23, 162, 183, 0.2);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/*COMMENTS*/
+
+/*GOOGLE ICONS*/
+.material-icons {
+  vertical-align: middle;
+}
+/*GOOGLE ICONS*/
+
+
+/* USERS/ORDERS*/
+.table-margin-100{
+  margin-top: 100px;
+  width: 100%;
+}
+
+/* USERS/ORDERS*/
+
+
+
+
+
+
+
+
+
+
+
+  /*Tablet Screen*/
+  @media only screen and (min-width: 768px) {
+/*LOGIN FORM*/
+    .container-responsive{
+        margin-top: 200px;
+        width: 60%;
+
+    }
+
+    #log-mail{
+        margin-right: 10px;
+    }
+/*LOGIN FORM*/
+
+/*REGISTRATION FORM*/
+#container-responsive-reg{
+  width: 70%;
+}
+/*REGISTRATION FORM*/
+
+/*COMMENTS*/
+#container-responsive-comment{
+  width: 80%;
+  margin-top: 100px;
+}
+/*COMMENTS*/
+
+    /*GALLERY IMG*/
+    .glr-header{
+        min-width: 100%;
+        height: 500px;
+    }
+    /*GALLERY IMG*/
+
+    /*EDIT FORM*/
+#container-responsive-edit{
+  margin-top: 100px;
+}
+
+/*EDIT FORM*/
+
+/* USERS/ORDERS*/
+.table-margin-100{
+  width: 100%;
+}
+
+/* USERS/ORDERS*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Computer Screen*/
+  @media only screen and (min-width: 992px) {
+    body  {
+        background-image: url("img/chef.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+/*LOGIN FORM*/
+    .container-responsive{
+    margin-top: 300px;
+    width: 30%;
+}
+/*LOGIN FORM*/
+
+/*REGISTRATION FORM*/
+#container-responsive-reg{
+  width: 50%;
+}
+/*REGISTRATION FORM*/
+
+/*COMMENTS*/
+#container-responsive-comment{
+  width: 60%;
+  margin-top: 100px;
+}
+/*COMMENTS*/
+
+/*GALLERY IMG*/
+.glr-header{
+    min-width: 100%;
+    height: 700px;
+}
+
+/*GALLERY IMG*/
+
+/*EDIT FORM*/
+#container-responsive-edit{
+  margin-top: 100px;
+}
+
+/*EDIT FORM*/
+
+/* USERS/ORDERS*/
+#table-users{
+  width: 56%;
+}
+
+/* USERS/ORDERS*/
+
+
+}
+
