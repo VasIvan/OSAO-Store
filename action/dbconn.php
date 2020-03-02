@@ -1,7 +1,7 @@
 <?php
-
+/*In order to run this project to your own server you should change the following variables and create in your databse tables accordingly !!!*/
 $servername = "localhost";
-$DBusername = "";
+$DBusername = ""; /*Username must be added here(ex. Root)*/
 $DBpassword = ""; /*password must be added here*/
 $DBname = "";/*database name here*/
 
